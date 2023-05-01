@@ -255,8 +255,8 @@
 .form__checkbox {
   width: 20px;
   height: 20px;
-  background-color: #2F80ED;
-  background-image: url(../images/check.svg)
+  background-color: #2f80ed;
+  background-image: url(../images/check.svg);
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
