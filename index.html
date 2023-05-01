@@ -112,8 +112,66 @@
             </div>
           </div>
         </section>
+        <section id="reservation" class="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Name *</label>
+              <input
+                class="form__input"
+                type="text"
+                id="name"
+                name="name-surname"
+                placeholder="Name-Surname"
+                required
+              />
+              <label for="number-of-guest" class="form__label"
+                >Number of guests *</label
+              >
+              <input
+                class="form__input"
+                type="number"
+                id="number-of-guest"
+                name="number-of-guest"
+                min="1"
+                max="8"
+                placeholder="1-8"
+                required
+              />
+              <label for="date-time" class="form__label">Date & time *</label>
+              <input
+                class="form__input"
+                type="datetime-local"
+                id="date-time"
+                name="date-time"
+                required
+              />
+              <label for="email" class="form__label">Your email *</label>
+              <input
+                class="form__input"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="email@email.com"
+                required
+              />
+              <button class="form__button" type="submit">Book a table</button>
+              <label
+                for="terms-agreement"
+                class="form__label form__label_type_checkbox"
+              >
+                <input
+                  class="form__checkbox"
+                  type="checkbox"
+                  id="terms-agreement"
+                  name="terms-agreement"
+                  required
+                />I agree with the terms of use
+              </label>
+            </fieldset>
+          </form>
+        </section>
         <section id="menu" class="menu"></section>
-        <section id="reservations" class="reservations"></section>
         <section id="contacts" class="contacts"></section>
       </main>
       <footer class="footer"></footer>
