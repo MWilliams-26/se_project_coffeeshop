@@ -22,5 +22,7 @@
   flex-direction: column;
   justify-content: center;
   width: 385px;
-  margin: auto;
+  margin: 0 auto;
+  padding-top: 0;
+  padding-bottom: 120px;
 }

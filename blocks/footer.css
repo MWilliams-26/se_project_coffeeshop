@@ -57,6 +57,8 @@
 
 .footer__social-link {
   color: #fff;
+  text-decoration: none;
+  transition: color 2s ease-out;
 }
 
 .footer__social-link:hover {
