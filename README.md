@@ -14,3 +14,5 @@ This is the second project of the Web Development program at Practicum. It was c
 ## Plan on improving the project
 
 I would love to add links to products mentioned in recipes section. I would love to create a form for odering items online for pickup.
+
+https://mwilliams-26.github.io/se_project_coffeeshop/
